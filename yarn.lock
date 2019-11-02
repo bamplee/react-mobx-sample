@@ -1834,6 +1834,12 @@ aws4@^1.8.0:
   version "1.8.0"
   resolved "https://registry.yarnpkg.com/aws4/-/aws4-1.8.0.tgz#f0e003d9ca9e7f59c7a508945d7b2ef9a04a542f"
 
+axios-mock-adapter@^1.16.0:
+  version "1.17.0"
+  resolved "https://registry.yarnpkg.com/axios-mock-adapter/-/axios-mock-adapter-1.17.0.tgz#0dbee43c606d4aaba5a43d88d96d6661a7cc3c04"
+  dependencies:
+    deep-equal "^1.0.1"
+
 axios@^0.18.0:
   version "0.18.0"
   resolved "https://registry.yarnpkg.com/axios/-/axios-0.18.0.tgz#32d53e4851efdc0a11993b6cd000789d70c05102"
@@ -3583,12 +3589,14 @@ eslint-scope@^4.0.3:
     estraverse "^4.1.1"
 
 eslint-utils@^1.3.1:
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/eslint-utils/-/eslint-utils-1.3.1.tgz#9a851ba89ee7c460346f97cf8939c7298827e512"
+  version "1.4.3"
+  resolved "https://registry.yarnpkg.com/eslint-utils/-/eslint-utils-1.4.3.tgz#74fec7c54d0776b6f67e0251040b5806564e981f"
+  dependencies:
+    eslint-visitor-keys "^1.1.0"
 
-eslint-visitor-keys@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-1.0.0.tgz#3f3180fb2e291017716acb4c9d6d5b5c34a6a81d"
+eslint-visitor-keys@^1.0.0, eslint-visitor-keys@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-1.1.0.tgz#e2a82cea84ff246ad6fb57f9bde5b46621459ec2"
 
 eslint@^5.16.0:
   version "5.16.0"
@@ -6072,6 +6080,10 @@ mobx-react@^5.4.4:
   dependencies:
     hoist-non-react-statics "^3.0.0"
     react-lifecycles-compat "^3.0.2"
+
+mobx-utils@^5.4.0:
+  version "5.5.2"
+  resolved "https://registry.yarnpkg.com/mobx-utils/-/mobx-utils-5.5.2.tgz#3d3230067f14e9315559d2bfd31d86ec2e8999f0"
 
 mobx@^5.9.4:
   version "5.9.4"
